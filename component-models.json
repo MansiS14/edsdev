@@ -221,7 +221,7 @@
       {
         "component": "reference",
         "valueType": "string",
-        "name": "image",
+        "name": "background_image",
         "label": "Background Image",
         "multi": false
       },
@@ -229,21 +229,49 @@
         "component": "text",
         "valueType": "string",
         "value": "",
-        "name": "pretitle",
+        "name": "background_imageAlt",
+        "label": "Image Alt"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "value": "",
+        "name": "foreground_pretitle",
         "label": "Pre Title"
       },
          {
         "component": "text",
         "valueType": "string",
         "value": "",
-        "name": "title",
+        "name": "foreground_title",
         "label": "Title"
+      },
+      {
+        "component": "select",
+        "value": "h3",
+        "name": "foreground_titleType",
+        "label": "Title Type",
+        "valueType": "string",
+        "options":[
+          {
+            "name": "h2",
+            "value": "h2"
+          },
+          {
+            "name": "h3",
+            "value": "h3"
+          },
+          {
+            "name": "h4",
+            "value": "h4"
+          }
+        ]
       },
         {
         "component": "richtext",
         "valueType": "string",
         "value": "",
-        "name": "description",
+        "name": "foreground_description",
         "label": "Description"
       }
     ]
