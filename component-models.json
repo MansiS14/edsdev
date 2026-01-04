@@ -214,5 +214,38 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "teaser",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Background Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "value": "",
+        "name": "pretitle",
+        "label": "Pre Title"
+      },
+         {
+        "component": "text",
+        "valueType": "string",
+        "value": "",
+        "name": "title",
+        "label": "Title"
+      },
+        {
+        "component": "richtext",
+        "valueType": "string",
+        "value": "",
+        "name": "description",
+        "label": "Description"
+      }
+    ]
   }
 ]
